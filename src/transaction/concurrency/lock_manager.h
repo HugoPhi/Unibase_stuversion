@@ -2,7 +2,7 @@
 
 #include <mutex>
 #include <condition_variable>
-#include "transaction/transaction.h"
+#include "../transaction.h"
 #include <memory.h>
 
 static const std::string GroupLockModeStr[10] = {"NON_LOCK", "IS", "IX", "S", "X", "SIX"};

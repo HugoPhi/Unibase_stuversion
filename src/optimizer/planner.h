@@ -11,7 +11,7 @@
 #include "../record/rm.h"
 #include "../system/sm.h"
 #include "../common/context.h"
-#include "../plan.h"
+#include "./plan.h"
 #include "../parser/parser.h"
 #include "../common/common.h"
 #include "../analyze/analyze.h"
